@@ -7,4 +7,7 @@ class WelcomeController < ApplicationController
 
   def partners
   end
+
+  def team
+  end
 end
