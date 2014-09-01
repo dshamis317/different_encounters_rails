@@ -58,6 +58,22 @@ body {
   }
 }
 
+.footer {
+  width: 100%;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  margin-top: 10px;
+  clear: both;
+
+  form {
+    font-size: 12px;
+  }
+
+  h5 {
+    margin: 0;
+  }
+}
+
 .container {
   width: 60%;
   margin: 0 auto;

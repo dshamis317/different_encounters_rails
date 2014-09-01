@@ -7,6 +7,7 @@
     width: 100%;
     display: inline-block;
     float: left;
+    margin-bottom: 15px;
 
     .image {
       width: 15%;
@@ -20,7 +21,8 @@
       float: left;
 
       h3 {
-        /*margin: 0;*/
+        margin: 10px 0 0 0;
+        font-size: 28px;
       }
     }
 
@@ -30,8 +32,22 @@
       float: left;
 
       h4 {
-        /*margin: 0;*/
+        margin: 0;
       }
     }
+
+    .bio {
+      margin-top: 130px;
+      text-align: justify;
+      /*display: none;*/
+    }
   }
+}
+
+.focus {
+  width: 75%;
+  background-color: lightgoldenrodyellow;
+  margin: 0 auto;
+  border: 3px solid #2EBBD8;
+  padding: 5px;
 }
