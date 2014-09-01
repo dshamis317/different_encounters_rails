@@ -13,7 +13,8 @@ body {
     margin: 0 0 0 5px;
 
     a {
-      font-family: 'Ubuntu', sans-serif;
+      font-family: 'Roboto Condensed', sans-serif;
+      font-size: 24px;
       color: white;
       text-decoration: none;
     }
@@ -29,12 +30,11 @@ body {
 
   .nav_toolbar {
     width: 100%;
-    margin: 10px 0 0 0;
+    /*margin: 10px 0 0 0;*/
 
     .toolbar {
       width: 95%;
       margin: 0 auto;
-      /*margin-left: -50px;*/
       list-style: none;
       display: table;
       table-layout: fixed;
@@ -45,6 +45,12 @@ body {
         text-align: center;
       }
 
+      li a {
+        color: white;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 14px;
+      }
+
       li:last-child a {
         color: orange;
       }
@@ -53,5 +59,8 @@ body {
 }
 
 .container {
+  width: 60%;
+  margin: 0 auto;
   margin-top: 6em;
+  font-family: 'Roboto Condensed', sans-serif;
 }
