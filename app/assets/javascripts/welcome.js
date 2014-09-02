@@ -10,6 +10,3 @@ function displayBios() {
  })
 }
 
-$(function() {
-  displayBios();
-})
