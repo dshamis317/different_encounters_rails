@@ -4,6 +4,6 @@ class MailingList < ActionMailer::Base
   def thank_you_email(user)
     @user = user
     @url = 'http://www.differentencounters.com'
-    mail(to: @user.email, subject: 'Thank you for signing up for the Different Encounters Mailing List')
+    mail(to: @user.email, subject: 'Thank you for signing up for Different Encounters')
   end
 end

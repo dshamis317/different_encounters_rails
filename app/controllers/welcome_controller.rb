@@ -18,7 +18,8 @@ class WelcomeController < ApplicationController
   end
 
   def mailing_list
-    User.find_or_create_by({email: params['email']})
+    user = User.find_or_create_by({email: params['email']})
+    MailingList.thank_you_email(user).deliver
     redirect_to root_path
   end
 end
